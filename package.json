@@ -1,0 +1,20 @@
+{
+  "name": "pavithran_tieriv_playwright_assessment_aug2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2",
+    "pdf-parse": "^2.4.5",
+    "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "@sparticuz/pdffiller": "^7.1.2"
+  }
+}
