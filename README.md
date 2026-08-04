@@ -113,3 +113,12 @@ This framework is not just a set of test scripts. It is built with professional 
 - Scalability for future enhancements
 - Better collaboration between QA and stakeholders
 
+Allure report execution results: 
+
+[Test case results](Execution_results.png)  
+![Saucedemo_cart results](Cartdetails.png)
+![Test case_Behaviours](Behaviours_speed.png)
+![Packages](Package.png)
+![Graph](Graph_details.png)
+![Multiple_language](Language_scope.png)
+
