@@ -17,9 +17,9 @@ test('simple get request', async ({ request }) => {
 });
 
 test('simple post request', async ({ request }) => {
-  const response = await request.post('https://conduit-api.bondaracademy.com/api/articles', {
+  const response = await request.post('https://conduit-api.bondaracademy.com/api/articles/', {
     headers: {
-      "Authorization": "Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Mjg4NX0sImlhdCI6MTc4NTczNzA0OSwiZXhwIjoxNzkwOTIxMDQ5fQ.a_PDPIzWoU7SXQIJyKEggjff9lGkvwMmaXLsBmcMWiQ"
+      "Authorization": "Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo2Mjg4NX0sImlhdCI6MTc4NTczNzA0OSwiZXhwIjoxNzkwOTIxMDQ5fQ.a_PDPIzWoU7SXQIJyKEggjff9lGkvwMmaXLsBmcMWiq"
     },
     data: {
       "article":{"title":"TEST TITLE","description":"Myself","body":"Pavithran Jagadeesan","tagList":[]}
