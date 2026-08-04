@@ -1,1 +1,0 @@
-{ errors: { title: [ 'must be unique' ] } }

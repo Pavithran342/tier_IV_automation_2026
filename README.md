@@ -75,6 +75,34 @@ Open the HTML report:
 npx playwright show-report
 ```
 
+## Allure report execution
+
+To generate and view the Allure report, follow these steps:
+
+1. Install Allure command-line tool if it is not already available:
+
+```bash
+npm install -g allure-commandline --save-dev
+```
+
+2. Run the tests with Allure results enabled:
+
+```bash
+npx playwright test --reporter=line,allure-playwright
+```
+
+3. Generate the Allure report from the results:
+
+```bash
+allure generate allure-results --clean -o allure-report
+```
+
+4. Open the report in the browser:
+
+```bash
+allure open allure-report
+```
+
 ## Why this framework is strong
 
 This framework is not just a set of test scripts. It is built with professional automation principles such as:
