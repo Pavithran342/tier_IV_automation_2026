@@ -1,0 +1,14 @@
+{
+  tags: [
+    'Test',
+    'Blog',
+    'Coding',
+    'YouTube',
+    'Git',
+    'Bondar Academy',
+    'Slack',
+    'Zoom',
+    'GitHub',
+    'Value-Focused'
+  ]
+}

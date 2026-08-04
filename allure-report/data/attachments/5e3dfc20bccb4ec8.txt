@@ -1,0 +1,8 @@
+Test Data for TC_LOGIN_001: {
+  TestCaseID: 'TC_LOGIN_001',
+  Username: 'standard_user',
+  Password: 'secret_sauce',
+  ExpectedResult: 'Success',
+  ExpectedMessage: 'Products',
+  Execute: 'Yes'
+}

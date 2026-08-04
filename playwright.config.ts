@@ -29,6 +29,8 @@ export default defineConfig({
   reporter: [
     ['list', { printSteps: true }],
     ['html', { outputFolder: path.join('playwright-report', `report-${timestamp}`), open: 'never' }],
+    ['github', { outputFile: path.join('playwright-report', `report-${timestamp}`, 'github.json') }],
+    ['line'], ['allure-playwright']
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
